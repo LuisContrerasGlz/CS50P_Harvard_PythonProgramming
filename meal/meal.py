@@ -23,6 +23,7 @@ def main():
         print("dinner time")
 
 
+# Defining function to take the time, spliting user input into 2 and then converting it so it can be used
 def convert(time):
     hours, minutes = time.split(":")
 
