@@ -27,7 +27,7 @@ while True:
         # Check if item is already in the dictionary
         if item in menu:
             # Add the item price to total_amount
-            amount += menu[item]
+            amount = menu[item] + amount
             # Print the current total_amount
             print("Total: $", end="")
             print("{:.2f}".format(amount))
