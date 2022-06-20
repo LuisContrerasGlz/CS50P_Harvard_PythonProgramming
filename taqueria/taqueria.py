@@ -30,6 +30,7 @@ while True:
             amount = menu[item] + amount
             # Print the current total_amount
             print("Total: $", end="")
+            # Here we are printing and setting the format to show 2 decimals
             print("{:.2f}".format(amount))
     except EOFError:
         # Print a new line and stop the loop
