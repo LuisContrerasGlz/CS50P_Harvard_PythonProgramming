@@ -8,20 +8,21 @@ while True:
     # Ask for user input and saving it in date variable
     fuel = input("Fraction: ")
     try:
-        numerator, denominator = fuel.split("/")
-        new_numerator = int(numerator)
-        new_denominator = int(denominator)
-        p = new_numerator / new_denominator
+        numer, denomin = fuel.split("/")
+        new_numer = int(numer)
+        new_denomin = int(denomin)
+        p = new_numer / new_denomin
         if p <= 1:
             break
     # "Catching" the exception for ValueError and ZeroDivisionError
     except (ValueError, ZeroDivisionError):
         pass
 
-new_p = int(p * 100)
-if new_p <= 1:
+# Comparing and printing depending on result
+p2 = int(p * 100)
+if p2 <= 1:
     print("E")
-elif new_p >= 99:
+elif p2 >= 99:
     print("F")
 else:
-    print(f"{new_p}%")
+    print(f"{p2}%")
