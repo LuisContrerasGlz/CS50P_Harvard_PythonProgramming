@@ -23,4 +23,4 @@ Complete Computer Science for Python Programming certificate for finishing CS50 
 
 ![Cert2](./computer_science.png)
 
-For more certifications and complete profile please check my LinkedIn: https://www.linkedin.com/in/luis-francisco-contreras-gonzalez-45791715a/
+For more certifications and complete profile please check my LinkedIn: https://www.linkedin.com/in/luis-contreras-gonzalez/
